@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <form  class="form-horizontal" action="login.html" method="post">
+       <fieldset>
+
+
+<legend>STUDENT REGISTER</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="usn">USN</label>  
+  <div class="col-md-4">
+  <input id="usn" name="usn" type="text" placeholder="enter your usn" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="name">NAME</label>  
+  <div class="col-md-4">
+  <input id="name" name="name" type="text" placeholder="enter your name" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="branch">BRANCH</label>
+  <div class="col-md-4">
+    <select id="selectbasic" name="branch" class="form-control">
+      <option value="mca">BCA</option>
+      <option value="mba">BBA</option>
+      <option value="cs">CS</option>
+      <option value="mtech">Bsc</option>
+    </select>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="sem">SEM</label>
+  <div class="col-md-4">
+    <select id="selectbasic" name="sem" class="form-control">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+    </select>
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="address">ADDRESS</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="address" name="address" placeholder="enter your address"></textarea>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="contact">PHONE NUMBER</label>  
+  <div class="col-md-4">
+  <input id="phone_number" name="contact" type="text" placeholder="enter your phone number" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="email">EMAIL</label>  
+  <div class="col-md-4">
+  <input id="email" name="email" type="text" placeholder="enter your email" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Password input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="password">PASSWORD</label>
+  <div class="col-md-4">
+    <input id="password" name="password" type="password" placeholder="enter your password" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="10">10</label>  
+  <div class="col-md-4">
+  <input id="10" name="10" type="text" placeholder="enter sslc percentage " class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="12">12</label>  
+  <div class="col-md-4">
+  <input id="12" name="12" type="text" placeholder="enter puc percentage" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="degree">DEGREE</label>  
+  <div class="col-md-4">
+  <input id="degree" name="degree" type="text" placeholder="current degree percentage" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Button (Double) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="submit"></label>
+  <div class="col-md-8">
+    <button id="register" name="register" class="btn btn-success" onclick="window.location.href = 'login.html';">REGISTER</button>
+    <button id="reset" name="reset" class="btn btn-danger">RESET</button>
+  </div>
+</div>
+
+
+</fieldset>
+        </form>
+    </body>
+</html>

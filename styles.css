@@ -1,0 +1,32 @@
+button {
+  background-color: red;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  font-size: 16px;
+  position:absolute;
+  top: 2%;
+  left:2%
+}
+
+h1{
+		font-size:5em;
+		color:red;
+		top:50%;
+		left:50%;
+	}
+th {
+  color: black;
+  font-size: 30px;
+  font-style:bold;
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+td {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  background-color: rgba(150, 212, 212, 0.4);
+  
+}
+
